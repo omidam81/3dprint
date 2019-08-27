@@ -1,0 +1,1499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_00MicronsX" xml:space="preserve">
+    <value>{0:0} microns X</value>
+  </data>
+  <data name="_00MicronsY" xml:space="preserve">
+    <value>{0:0} microns Y</value>
+  </data>
+  <data name="_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_100" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="_1000" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="_102" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="_2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_20" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_200" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="_3DView" xml:space="preserve">
+    <value>3D View</value>
+  </data>
+  <data name="_4" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_50_" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="_900" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="_9p" xml:space="preserve">
+    <value>9p</value>
+  </data>
+  <data name="_CreationWorkshop" xml:space="preserve">
+    <value>Creation
+Workshop</value>
+  </data>
+  <data name="_Title" xml:space="preserve">
+    <value>.title</value>
+  </data>
+  <data name="_UnderLine" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="_X___" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="_Y___" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Acerca De</value>
+  </data>
+  <data name="Adaptive" xml:space="preserve">
+    <value>adaptado</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>añadir</value>
+  </data>
+  <data name="AddBox" xml:space="preserve">
+    <value>Añadir Caja</value>
+  </data>
+  <data name="AddCone" xml:space="preserve">
+    <value>Añadir Cono</value>
+  </data>
+  <data name="AddCylinder" xml:space="preserve">
+    <value>Añadir Cilindro</value>
+  </data>
+  <data name="AddSphere" xml:space="preserve">
+    <value>Añadir Esfera</value>
+  </data>
+  <data name="AddSupport" xml:space="preserve">
+    <value>Añadir Soporte</value>
+  </data>
+  <data name="AddSupportBasePlate" xml:space="preserve">
+    <value>Añadir Placa Base de Apoyo</value>
+  </data>
+  <data name="AddTorus" xml:space="preserve">
+    <value>Añadir Torus</value>
+  </data>
+  <data name="Adjust" xml:space="preserve">
+    <value>ajustar</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>todos</value>
+  </data>
+  <data name="AMFSmoothingLevel" xml:space="preserve">
+    <value>Nivel AMF Smoothing:</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>aplicar</value>
+  </data>
+  <data name="apply_changes__" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ApplyChanges" xml:space="preserve">
+    <value>Aplicar Cambios</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisMachineProfile" xml:space="preserve">
+    <value>¿Seguro que quieres borrar este perfil máquina?</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisResinProfile" xml:space="preserve">
+    <value>¿Seguro que quieres borrar este perfil Resina?</value>
+  </data>
+  <data name="Args" xml:space="preserve">
+    <value>args</value>
+  </data>
+  <data name="Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="ArrangeObjectsOnPlatform" xml:space="preserve">
+    <value>Organizar objetos
+en la plataforma </value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>atención</value>
+  </data>
+  <data name="AutoCalc" xml:space="preserve">
+    <value>Auto Calc</value>
+  </data>
+  <data name="AutomaticSupport" xml:space="preserve">
+    <value>Soporte automático</value>
+  </data>
+  <data name="AutomaticSupportGrid" xml:space="preserve">
+    <value>Red Automática de apoyo:</value>
+  </data>
+  <data name="AutomaticSupports" xml:space="preserve">
+    <value>Apoyos automáticas</value>
+  </data>
+  <data name="AvailableDisplays" xml:space="preserve">
+    <value>Muestra Disponible</value>
+  </data>
+  <data name="B9CreatorJobFileParameters" xml:space="preserve">
+    <value>Parámetros del archivo de trabajo creador B9</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>fondo</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Color De Fondo</value>
+  </data>
+  <data name="BadColorName" xml:space="preserve">
+    <value>Nombre de mal color</value>
+  </data>
+  <data name="BedOfNails" xml:space="preserve">
+    <value>cama de clavos</value>
+  </data>
+  <data name="BeginPrintingScene" xml:space="preserve">
+    <value>Comienza la impresión escena</value>
+  </data>
+  <data name="BnPP2dDonationsBF" xml:space="preserve">
+    <value>Y bn = PP% 2dDonationsBF</value>
+  </data>
+  <data name="Boolean" xml:space="preserve">
+    <value>Boole</value>
+  </data>
+  <data name="BottomExposureMs" xml:space="preserve">
+    <value>Exposición Inferior (ms)</value>
+  </data>
+  <data name="BottomLayers" xml:space="preserve">
+    <value># Capas inferiores</value>
+  </data>
+  <data name="BuildDate" xml:space="preserve">
+    <value>La Fecha De Construcción</value>
+  </data>
+  <data name="BuildDate_" xml:space="preserve">
+    <value>La Fecha De Construcción:</value>
+  </data>
+  <data name="BuildDirection" xml:space="preserve">
+    <value>Construir Dirección</value>
+  </data>
+  <data name="BuildSizeCalibration" xml:space="preserve">
+    <value>Construir Calibración Tamaño</value>
+  </data>
+  <data name="BuildSizeMm" xml:space="preserve">
+    <value>Superficie construida (mm)</value>
+  </data>
+  <data name="ButtonParentNotFound" xml:space="preserve">
+    <value>Botón padres no encontrado:</value>
+  </data>
+  <data name="Buttons_" xml:space="preserve">
+    <value>Botones:</value>
+  </data>
+  <data name="ButtRotateYMinus" xml:space="preserve">
+    <value>buttRotateYMinus</value>
+  </data>
+  <data name="C_" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="Calibrate" xml:space="preserve">
+    <value>calibrar</value>
+  </data>
+  <data name="CalibrateResin" xml:space="preserve">
+    <value>Calibrar Resina</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>cancelar</value>
+  </data>
+  <data name="CannotConnectPrinterDriverOn" xml:space="preserve">
+    <value>No se puede conectar controlador de impresora en</value>
+  </data>
+  <data name="CannotDeleteDefaultProfile" xml:space="preserve">
+    <value>No se puede eliminar el perfil por defecto</value>
+  </data>
+  <data name="CanTFindScreen" xml:space="preserve">
+    <value>Si no encuentra la pantalla</value>
+  </data>
+  <data name="Cc" xml:space="preserve">
+    <value>cc</value>
+  </data>
+  <data name="CenterObject" xml:space="preserve">
+    <value>objeto Center</value>
+  </data>
+  <data name="CheckedSupportEntireSceneUncheckedSupportSelectedObjectsOnly" xml:space="preserve">
+    <value>Marcada: Apoyar toda escena
+Sólo objetos seleccionados Apoyo : Desactivada</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Buscar actualizaciones</value>
+  </data>
+  <data name="CheckMeshForHoles" xml:space="preserve">
+    <value>Compruebe Malla Para Agujeros</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Claro</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="Color_" xml:space="preserve">
+    <value>color</value>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>comando</value>
+  </data>
+  <data name="Commands" xml:space="preserve">
+    <value>Comandos</value>
+  </data>
+  <data name="CompoundPath" xml:space="preserve">
+    <value>trazado compuesto</value>
+  </data>
+  <data name="CompoundPathOld" xml:space="preserve">
+    <value>Trazado compuesto (antiguo)</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>configuración</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="ConfiguredDisplays" xml:space="preserve">
+    <value>Muestra configurados</value>
+  </data>
+  <data name="ConfigureMachine" xml:space="preserve">
+    <value>Configurar la máquina</value>
+  </data>
+  <data name="ConfigureMask" xml:space="preserve">
+    <value>Configure la máscara</value>
+  </data>
+  <data name="ConfigurePort" xml:space="preserve">
+    <value>Configurar puerto</value>
+  </data>
+  <data name="ConfigureSlicingProfile" xml:space="preserve">
+    <value>Configure rebanar Perfil</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Confirmar Eliminación</value>
+  </data>
+  <data name="ConnectingToPrinterOn" xml:space="preserve">
+    <value>Conexión a impresora en</value>
+  </data>
+  <data name="ConnectionSetup" xml:space="preserve">
+    <value>Configuración de la conexión</value>
+  </data>
+  <data name="ConnectToThePrinter" xml:space="preserve">
+    <value>Conecte a la impresora</value>
+  </data>
+  <data name="Control" xml:space="preserve">
+    <value>control</value>
+  </data>
+  <data name="ControlParentNotFound" xml:space="preserve">
+    <value>Matriz de control no encontrado:</value>
+  </data>
+  <data name="Controls_" xml:space="preserve">
+    <value>Controles:</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Costo:</value>
+  </data>
+  <data name="CouldNotLoad" xml:space="preserve">
+    <value>No se pudo cargar</value>
+  </data>
+  <data name="CouldNotSendRawGCodeCommand" xml:space="preserve">
+    <value>No se pudo enviar comandos gcode Raw</value>
+  </data>
+  <data name="CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>crear</value>
+  </data>
+  <data name="CreationWorkshop" xml:space="preserve">
+    <value>Taller de Creación por Omid</value>
+  </data>
+  <data name="Currency_code" xml:space="preserve">
+    <value>y currency_code =</value>
+  </data>
+  <data name="CurrentBuildPlatformSize" xml:space="preserve">
+    <value>Plataforma Build actual Tamaño</value>
+  </data>
+  <data name="Cws" xml:space="preserve">
+    <value>CWS</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>datos</value>
+  </data>
+  <data name="DataBits" xml:space="preserve">
+    <value># Bits de datos</value>
+  </data>
+  <data name="Debugging" xml:space="preserve">
+    <value>Depuración</value>
+  </data>
+  <data name="Decals" xml:space="preserve">
+    <value>calcomanías</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>defecto</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>borrar</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>descripción</value>
+  </data>
+  <data name="Description_" xml:space="preserve">
+    <value>Descripción *:</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>inhabilitar</value>
+  </data>
+  <data name="DisconnectFromThePrinter" xml:space="preserve">
+    <value>Desconecte de la impresora</value>
+  </data>
+  <data name="DisconnectingFromPrinter" xml:space="preserve">
+    <value>Desconectar de la impresora</value>
+  </data>
+  <data name="Divisions" xml:space="preserve">
+    <value>Divisiones</value>
+  </data>
+  <data name="Donation" xml:space="preserve">
+    <value>donación</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Hecho</value>
+  </data>
+  <data name="DownwardFacingDegree" xml:space="preserve">
+    <value>Downward grado paramento</value>
+  </data>
+  <data name="DumpCommands" xml:space="preserve">
+    <value>Comandos dump</value>
+  </data>
+  <data name="EditCommands" xml:space="preserve">
+    <value>Editar Comandos</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Habilitar</value>
+  </data>
+  <data name="EnableAntiAliasing" xml:space="preserve">
+    <value>Habilitar Anti-Aliasing</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Activado</value>
+  </data>
+  <data name="EnableMask" xml:space="preserve">
+    <value>Activar máscara</value>
+  </data>
+  <data name="EnableSerial" xml:space="preserve">
+    <value>Enable Serial</value>
+  </data>
+  <data name="EnableSliceOutlines" xml:space="preserve">
+    <value>Habilitar Slice Contornos</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="EnterLicense" xml:space="preserve">
+    <value>Introduzca Licencia</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>error</value>
+  </data>
+  <data name="ErrorLoadingObjectFile" xml:space="preserve">
+    <value>Error fichero objeto de carga:</value>
+  </data>
+  <data name="ErrorLoadingSceneFile" xml:space="preserve">
+    <value>Error archivo de escena de carga:</value>
+  </data>
+  <data name="ErrorSavingKeyring" xml:space="preserve">
+    <value>Error al guardar llavero</value>
+  </data>
+  <data name="ErrorSavingNewProfile" xml:space="preserve">
+    <value>Ahorrando nuevo perfil error</value>
+  </data>
+  <data name="ErrorValidatingLicensePleaseReCheck" xml:space="preserve">
+    <value>Error licencia de validación, por favor re-verificación</value>
+  </data>
+  <data name="EstimatedBuildTime" xml:space="preserve">
+    <value>Tiempo estimado de construcción:</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Salida</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportar ...</value>
+  </data>
+  <data name="Export_" xml:space="preserve">
+    <value>exportación</value>
+  </data>
+  <data name="ExportOptions" xml:space="preserve">
+    <value>Opciones de exportación</value>
+  </data>
+  <data name="ExportPreview" xml:space="preserve">
+    <value>Preliminar de la exportación:</value>
+  </data>
+  <data name="ExportSVG" xml:space="preserve">
+    <value>SVG Exportación:</value>
+  </data>
+  <data name="ExportToCWS" xml:space="preserve">
+    <value>Exportar a CWS</value>
+  </data>
+  <data name="ExportToDisk" xml:space="preserve">
+    <value>Exportar a disco</value>
+  </data>
+  <data name="ExportType" xml:space="preserve">
+    <value>Tipo de exportación:</value>
+  </data>
+  <data name="ExposureCalculation" xml:space="preserve">
+    <value>cálculo de la exposición</value>
+  </data>
+  <data name="ExposureStepMs" xml:space="preserve">
+    <value>Paso de la exposición (ms):</value>
+  </data>
+  <data name="ExposureTimeMs" xml:space="preserve">
+    <value>Tiempo de exposición (ms)</value>
+  </data>
+  <data name="Extrude" xml:space="preserve">
+    <value>extrudir</value>
+  </data>
+  <data name="ExtruderHeater" xml:space="preserve">
+    <value>calentador Extrusora</value>
+  </data>
+  <data name="ExtruderMotor" xml:space="preserve">
+    <value>motor Extrusora</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="FilledPolygons" xml:space="preserve">
+    <value>polígonos rellenos</value>
+  </data>
+  <data name="FilledPolygonsOld" xml:space="preserve">
+    <value>Polígonos rellenos (antiguo)</value>
+  </data>
+  <data name="FootBottomIntraMm" xml:space="preserve">
+    <value>Pie intra inferior (mm)</value>
+  </data>
+  <data name="FootBottomMm" xml:space="preserve">
+    <value>Parte inferior del pie (mm)</value>
+  </data>
+  <data name="FootTopMm" xml:space="preserve">
+    <value>Pie Top (mm)</value>
+  </data>
+  <data name="Foreground" xml:space="preserve">
+    <value>primer plano</value>
+  </data>
+  <data name="ForegroundColor" xml:space="preserve">
+    <value>Color De Primer Plano</value>
+  </data>
+  <data name="FreeForNonCommercialUse" xml:space="preserve">
+    <value>Gratis para uso no comercial</value>
+  </data>
+  <data name="Gcode" xml:space="preserve">
+    <value>gcode</value>
+  </data>
+  <data name="GCode__" xml:space="preserve">
+    <value>GCode</value>
+  </data>
+  <data name="GCodeFilesGcodeGcodeAllFiles" xml:space="preserve">
+    <value>GCode Files(*.gcode)|*.gcode|All files (*.*)|*.*</value>
+  </data>
+  <data name="GCodeSection" xml:space="preserve">
+    <value>Sección gcode</value>
+  </data>
+  <data name="GCodeView" xml:space="preserve">
+    <value>gcode Ver</value>
+  </data>
+  <data name="GenerateAutomaticSupports" xml:space="preserve">
+    <value>Generar soportes automáticos</value>
+  </data>
+  <data name="GenerateSupportOnlyOnDownwardFacingSurfaces" xml:space="preserve">
+    <value>Generar apoyo sólo en
+superficies que miran hacia abajo </value>
+  </data>
+  <data name="Generating" xml:space="preserve">
+    <value>Generación ...</value>
+  </data>
+  <data name="Guimachineconfig" xml:space="preserve">
+    <value>guimachineconfig</value>
+  </data>
+  <data name="Guimachineconfigparent" xml:space="preserve">
+    <value>guimachineconfigparent</value>
+  </data>
+  <data name="GUITabActivationCtlTabItemCtlTabContent" xml:space="preserve">
+    <value>GUI Tab activación &lt;ctlTabItem&gt; &lt;ctlTabContent&gt;</value>
+  </data>
+  <data name="HardwareGuide" xml:space="preserve">
+    <value>Guía de hardware</value>
+  </data>
+  <data name="HeadBottomMm" xml:space="preserve">
+    <value>Parte inferior de la cabeza (mm)</value>
+  </data>
+  <data name="HeadTopMm" xml:space="preserve">
+    <value>Jefe superior (mm)</value>
+  </data>
+  <data name="HeatedPlatform" xml:space="preserve">
+    <value>plataforma climatizada</value>
+  </data>
+  <data name="Heater" xml:space="preserve">
+    <value>Calentador:</value>
+  </data>
+  <data name="Heater_" xml:space="preserve">
+    <value>calentador</value>
+  </data>
+  <data name="Heater1Ext0" xml:space="preserve">
+    <value>Calentador de 1: (Ext0)</value>
+  </data>
+  <data name="Heater2HBP" xml:space="preserve">
+    <value>Calentador 2: (HTA)</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>altura</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="Hex" xml:space="preserve">
+    <value>maleficio</value>
+  </data>
+  <data name="HexCommand" xml:space="preserve">
+    <value>Comando Hex</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Esconder</value>
+  </data>
+  <data name="HideDLP" xml:space="preserve">
+    <value>Ocultar DLP</value>
+  </data>
+  <data name="Home_" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="HorizontalDivisions" xml:space="preserve">
+    <value>Divisiones horizontales</value>
+  </data>
+  <data name="HorizontalGridSpacing" xml:space="preserve">
+    <value>Espaciado de malla horizontal</value>
+  </data>
+  <data name="IgnoreGCodeResponses" xml:space="preserve">
+    <value>Ignorar Respuestas gcode</value>
+  </data>
+  <data name="ImagePixelOffsets" xml:space="preserve">
+    <value>Compensaciones de píxel de la imagen</value>
+  </data>
+  <data name="ImageReflection" xml:space="preserve">
+    <value>Reflexión imagen</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="InGUIConfig" xml:space="preserve">
+    <value>  en GUIConfig</value>
+  </data>
+  <data name="InputError" xml:space="preserve">
+    <value>Error de entrada</value>
+  </data>
+  <data name="InstalledPlugIns" xml:space="preserve">
+    <value>Instalado Plug-Ins</value>
+  </data>
+  <data name="IntegerNumberOutOfRange" xml:space="preserve">
+    <value>Número entero fuera de rango (</value>
+  </data>
+  <data name="IntersectSelected" xml:space="preserve">
+    <value>Intersección seleccionada</value>
+  </data>
+  <data name="Invalid" xml:space="preserve">
+    <value>inválido</value>
+  </data>
+  <data name="InvalidIntegerNumber" xml:space="preserve">
+    <value>Número entero válido</value>
+  </data>
+  <data name="InvalidLicensePleaseReCheck" xml:space="preserve">
+    <value>Licencia no válida, vuelva a verificación</value>
+  </data>
+  <data name="Item_name" xml:space="preserve">
+    <value>y item_name =</value>
+  </data>
+  <data name="Layer" xml:space="preserve">
+    <value>capa</value>
+  </data>
+  <data name="LayerCompleted" xml:space="preserve">
+    <value>capa Completado</value>
+  </data>
+  <data name="Layers" xml:space="preserve">
+    <value>Capas #:</value>
+  </data>
+  <data name="Layouts" xml:space="preserve">
+    <value>diseños</value>
+  </data>
+  <data name="Lc" xml:space="preserve">
+    <value>y lc =</value>
+  </data>
+  <data name="LicenseAddedToKeyringRestartToTakeEffect" xml:space="preserve">
+    <value>Licencia Añadido al llavero, Reinicie surta efecto</value>
+  </data>
+  <data name="Licensed" xml:space="preserve">
+    <value>con licencia</value>
+  </data>
+  <data name="Lift" xml:space="preserve">
+    <value>ascensor</value>
+  </data>
+  <data name="LiftAndSequence" xml:space="preserve">
+    <value>Levante y Secuencia</value>
+  </data>
+  <data name="LiftAndSequenceTimeMs" xml:space="preserve">
+    <value>Levante y Secuencia Tiempo (ms)</value>
+  </data>
+  <data name="LoadGCodeFile" xml:space="preserve">
+    <value>Cargar archivos G-Code</value>
+  </data>
+  <data name="LoadGUIConfig" xml:space="preserve">
+    <value>GUIConfig carga</value>
+  </data>
+  <data name="LoadModel" xml:space="preserve">
+    <value>Cargar Modelo</value>
+  </data>
+  <data name="LogAllCommandsSentToMachine" xml:space="preserve">
+    <value>Registrar todos los comandos enviados a la máquina</value>
+  </data>
+  <data name="LogAllGCodeSent" xml:space="preserve">
+    <value>Registrar toda gcode enviado</value>
+  </data>
+  <data name="LogDriverDebuggingToCommLog" xml:space="preserve">
+    <value>Entrar depuración del controlador de comm.log</value>
+  </data>
+  <data name="M800T0" xml:space="preserve">
+    <value>M800 T0</value>
+  </data>
+  <data name="Machine" xml:space="preserve">
+    <value>, Máquina:</value>
+  </data>
+  <data name="MachineConfig" xml:space="preserve">
+    <value>máquina Config</value>
+  </data>
+  <data name="MachineConnection" xml:space="preserve">
+    <value>Conexión a máquina</value>
+  </data>
+  <data name="MachineControls" xml:space="preserve">
+    <value>Los controles de la máquina</value>
+  </data>
+  <data name="MachineProfile" xml:space="preserve">
+    <value>máquina Perfil</value>
+  </data>
+  <data name="Mainmsg" xml:space="preserve">
+    <value>mainmsg</value>
+  </data>
+  <data name="MakeObjects50Transparent" xml:space="preserve">
+    <value>Hacer que los objetos 50%
+transparente </value>
+  </data>
+  <data name="ManualGcode" xml:space="preserve">
+    <value>Gcode Manual:</value>
+  </data>
+  <data name="ManualGCode_" xml:space="preserve">
+    <value>gcode Manual</value>
+  </data>
+  <data name="ManualGCodeCommands" xml:space="preserve">
+    <value>Comandos gcode Manual</value>
+  </data>
+  <data name="MarkSelectedObjectsWithABoundingBox" xml:space="preserve">
+    <value>Objetos Marcos seleccionado
+con un cuadro de límite </value>
+  </data>
+  <data name="MarkSelectedObjectsWithADifferentShade" xml:space="preserve">
+    <value>Objetos Marcos seleccionado
+con un tono diferente </value>
+  </data>
+  <data name="MarkSelectedObjectsWithAnOutline" xml:space="preserve">
+    <value>Objetos Marcos seleccionado
+con un esquema </value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max:</value>
+  </data>
+  <data name="MeasuredSizeMm" xml:space="preserve">
+    <value>Tamaño Medido (mm)</value>
+  </data>
+  <data name="MeshHasHolesHoles" xml:space="preserve">
+    <value>Malla tiene agujeros: # agujeros =</value>
+  </data>
+  <data name="MeshTools" xml:space="preserve">
+    <value>malla Herramientas</value>
+  </data>
+  <data name="MicrosoftSansSerif" xml:space="preserve">
+    <value>Microsoft Sans Serif</value>
+  </data>
+  <data name="MiiManualControl" xml:space="preserve">
+    <value>Mii Manual de Control</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>min:</value>
+  </data>
+  <data name="MinimumExposureMs" xml:space="preserve">
+    <value>La exposición mínima (ms):</value>
+  </data>
+  <data name="MinimumGapMm" xml:space="preserve">
+    <value>Gap mínimo (mm)</value>
+  </data>
+  <data name="Mirror" xml:space="preserve">
+    <value>espejo</value>
+  </data>
+  <data name="Mm" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="ModelCreated" xml:space="preserve">
+    <value>Creado Modelo</value>
+  </data>
+  <data name="ModelSizeMm" xml:space="preserve">
+    <value>Tamaño Modelo (mm)</value>
+  </data>
+  <data name="MonitorNotFoundCancellingBuild" xml:space="preserve">
+    <value>Vigilar que no se encuentra, acumulación cancelación</value>
+  </data>
+  <data name="MonitorTemp" xml:space="preserve">
+    <value>Monitorear Temp:</value>
+  </data>
+  <data name="MonitorTemperature" xml:space="preserve">
+    <value>monitor de Temperatura</value>
+  </data>
+  <data name="Motors" xml:space="preserve">
+    <value>Motores:</value>
+  </data>
+  <data name="Move_" xml:space="preserve">
+    <value>movimiento</value>
+  </data>
+  <data name="MultiMonOrientation" xml:space="preserve">
+    <value>Multi Orientación lun</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>nombre</value>
+  </data>
+  <data name="NewBuildPlatformSize" xml:space="preserve">
+    <value>Nueva Plataforma Construido</value>
+  </data>
+  <data name="NewResinProfile" xml:space="preserve">
+    <value>Nuevo perfil Resina</value>
+  </data>
+  <data name="NoGCodeFileCannotBeginBuild" xml:space="preserve">
+    <value>No hay archivo gcode, no puede comenzar construcción</value>
+  </data>
+  <data name="NoHolesDetected" xml:space="preserve">
+    <value>No hay agujeros detectados</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>ninguno</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="NoSlicingFileCannotBeginBuild" xml:space="preserve">
+    <value>No hay archivo rebanar, no puede comenzar construcción</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notas:</value>
+  </data>
+  <data name="NullBMInDLPForm" xml:space="preserve">
+    <value>Null BM en forma DLP</value>
+  </data>
+  <data name="ObjectInfo" xml:space="preserve">
+    <value>Objeto Info</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>  de</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>apagado</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>* = Opcional</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="OutlineWidthInsetPix" xml:space="preserve">
+    <value>Esquema Ancho Inserción (pix)</value>
+  </data>
+  <data name="OutlineWidthOutsetPix" xml:space="preserve">
+    <value>Esquema Ancho principio (pix)</value>
+  </data>
+  <data name="OutputResolutionPx" xml:space="preserve">
+    <value>Resolución de salida (px)</value>
+  </data>
+  <data name="OverrideSize" xml:space="preserve">
+    <value>Ignorar Tamaño</value>
+  </data>
+  <data name="Parenthesis" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="PausePrinting" xml:space="preserve">
+    <value>impresión Pausa</value>
+  </data>
+  <data name="Platform" xml:space="preserve">
+    <value>Plataforma:</value>
+  </data>
+  <data name="Platform_" xml:space="preserve">
+    <value>plataforma</value>
+  </data>
+  <data name="PleaseCheckInput" xml:space="preserve">
+    <value>Por favor, marque la entrada</value>
+  </data>
+  <data name="PleaseCheckInputParameters" xml:space="preserve">
+    <value>Por favor, marque los parámetros de entrada
+</value>
+  </data>
+  <data name="PleaseEnterANameForYourNewProfile" xml:space="preserve">
+    <value>Por favor, Introduzca un nombre para su nuevo perfil</value>
+  </data>
+  <data name="PlugIn" xml:space="preserve">
+    <value>Enchufar</value>
+  </data>
+  <data name="PluginAndLicensingManagement" xml:space="preserve">
+    <value>Plugin y licencias Gestión</value>
+  </data>
+  <data name="PluginContents" xml:space="preserve">
+    <value>Contenido Plugin</value>
+  </data>
+  <data name="PlugIns" xml:space="preserve">
+    <value>Plug-Ins</value>
+  </data>
+  <data name="PlugInTester" xml:space="preserve">
+    <value>Plug-in Tester</value>
+  </data>
+  <data name="PluginTester_" xml:space="preserve">
+    <value>Tester Plugin</value>
+  </data>
+  <data name="Pluse" xml:space="preserve">
+    <value>/ = +</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value># Puntos:</value>
+  </data>
+  <data name="Polys" xml:space="preserve">
+    <value># Polys:</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>puerto</value>
+  </data>
+  <data name="Port__" xml:space="preserve">
+    <value>Puerto:</value>
+  </data>
+  <data name="Preferences" xml:space="preserve">
+    <value>Preferencias</value>
+  </data>
+  <data name="PreSlice" xml:space="preserve">
+    <value>Pre-Slice</value>
+  </data>
+  <data name="PressApplyToApplyChanges" xml:space="preserve">
+    <value>Pulse Aplicar para aplicar los cambios</value>
+  </data>
+  <data name="PricePerLiter" xml:space="preserve">
+    <value>Precio por litro:</value>
+  </data>
+  <data name="PrintCancelled" xml:space="preserve">
+    <value>Imprimir Cancelado</value>
+  </data>
+  <data name="PrintCompleted" xml:space="preserve">
+    <value>Imprimir Completado</value>
+  </data>
+  <data name="PrinterConnected" xml:space="preserve">
+    <value>conectada la impresora</value>
+  </data>
+  <data name="PrinterConnectionClosed" xml:space="preserve">
+    <value>Conexión de la impresora cerrada</value>
+  </data>
+  <data name="PrintingLayer" xml:space="preserve">
+    <value>capa de impresión</value>
+  </data>
+  <data name="PrintPaused" xml:space="preserve">
+    <value>imprimir pausa</value>
+  </data>
+  <data name="PrintResumed" xml:space="preserve">
+    <value>Imprimir Continuación</value>
+  </data>
+  <data name="PrintStarted" xml:space="preserve">
+    <value>Imprimir Comienza</value>
+  </data>
+  <data name="PrintTestModel" xml:space="preserve">
+    <value>Modelo de prueba de impresión</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>proceso</value>
+  </data>
+  <data name="Processentry" xml:space="preserve">
+    <value>processentry</value>
+  </data>
+  <data name="Processname" xml:space="preserve">
+    <value>ProcessName</value>
+  </data>
+  <data name="ProfileName" xml:space="preserve">
+    <value>Nombre De Perfil</value>
+  </data>
+  <data name="ProgramPreferences" xml:space="preserve">
+    <value>Preferencias del programa</value>
+  </data>
+  <data name="ProjectorCommands" xml:space="preserve">
+    <value>Comandos para proyectores</value>
+  </data>
+  <data name="ProjectorControl" xml:space="preserve">
+    <value>control del proyector</value>
+  </data>
+  <data name="ProjectorDriverNotConnected" xml:space="preserve">
+    <value>Proyectores Conductor No conectado</value>
+  </data>
+  <data name="PutObjectOnPlatform" xml:space="preserve">
+    <value>Objeto Ponga
+en la plataforma </value>
+  </data>
+  <data name="RadiiInnerOuter" xml:space="preserve">
+    <value>Radios (interior / exterior)</value>
+  </data>
+  <data name="Radius" xml:space="preserve">
+    <value>radio</value>
+  </data>
+  <data name="RealNumberOutOfRange" xml:space="preserve">
+    <value>Número real fuera de rango (</value>
+  </data>
+  <data name="Received" xml:space="preserve">
+    <value>recibido</value>
+  </data>
+  <data name="Redraw" xml:space="preserve">
+    <value>redibujar</value>
+  </data>
+  <data name="ReflectX" xml:space="preserve">
+    <value>Reflexionar X</value>
+  </data>
+  <data name="ReflectY" xml:space="preserve">
+    <value>Reflexionar Y</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>refrescar</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>recargar</value>
+  </data>
+  <data name="RemoveAll" xml:space="preserve">
+    <value>eliminar todo</value>
+  </data>
+  <data name="RemoveObject" xml:space="preserve">
+    <value>Retire objetos</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>informe</value>
+  </data>
+  <data name="Report_" xml:space="preserve">
+    <value>Informe:</value>
+  </data>
+  <data name="Resin" xml:space="preserve">
+    <value>Resina:</value>
+  </data>
+  <data name="ResinProfiles" xml:space="preserve">
+    <value>Perfiles de resina</value>
+  </data>
+  <data name="Rotate" xml:space="preserve">
+    <value>Girar</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="SaveGCodeFile" xml:space="preserve">
+    <value>Guardar archivo G-Code</value>
+  </data>
+  <data name="Scale" xml:space="preserve">
+    <value>escala</value>
+  </data>
+  <data name="Scene" xml:space="preserve">
+    <value>Escena:</value>
+  </data>
+  <data name="Scene_" xml:space="preserve">
+    <value>escena</value>
+  </data>
+  <data name="SceneIsEmpty" xml:space="preserve">
+    <value>Escena está vacía</value>
+  </data>
+  <data name="SceneName" xml:space="preserve">
+    <value>Nombre de la escena *:</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="SelectExportTypeFirst" xml:space="preserve">
+    <value>Seleccione el tipo de exportación primero</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>enviar</value>
+  </data>
+  <data name="Send_" xml:space="preserve">
+    <value>Enviar!</value>
+  </data>
+  <data name="SendCommand" xml:space="preserve">
+    <value>Enviar Comando</value>
+  </data>
+  <data name="Sent" xml:space="preserve">
+    <value>enviado</value>
+  </data>
+  <data name="Seqdata" xml:space="preserve">
+    <value>seqdata</value>
+  </data>
+  <data name="Seqtype" xml:space="preserve">
+    <value>seqtype</value>
+  </data>
+  <data name="Sequence" xml:space="preserve">
+    <value>secuencia</value>
+  </data>
+  <data name="SequenceMustHaveANameInGUIConfig" xml:space="preserve">
+    <value>Secuencia debe tener un nombre en GUIConfig</value>
+  </data>
+  <data name="Sequences" xml:space="preserve">
+    <value>secuencias</value>
+  </data>
+  <data name="SerialPortNotAutoDetected" xml:space="preserve">
+    <value>Puerto serie no detecta automáticamente</value>
+  </data>
+  <data name="Set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="ShaiSegar" xml:space="preserve">
+    <value>Shai Segar</value>
+  </data>
+  <data name="ShowBlank" xml:space="preserve">
+    <value>Mostrar en blanco</value>
+  </data>
+  <data name="ShowCalibration" xml:space="preserve">
+    <value>Mostrar calibración</value>
+  </data>
+  <data name="ShowConsole" xml:space="preserve">
+    <value>Mostrar consola</value>
+  </data>
+  <data name="ShowDownwardFacingSurfacesByAngle" xml:space="preserve">
+    <value>Mostrar orientada hacia abajo
+superficies de ángulo </value>
+  </data>
+  <data name="ShowSlicePreviewOnScene" xml:space="preserve">
+    <value>Mostrar rebanada vista previa
+en escena </value>
+  </data>
+  <data name="Shutter" xml:space="preserve">
+    <value>obturador:</value>
+  </data>
+  <data name="Shutter__" xml:space="preserve">
+    <value>obturador</value>
+  </data>
+  <data name="Sign" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Tamaño:</value>
+  </data>
+  <data name="Size_" xml:space="preserve">
+    <value>tamaño</value>
+  </data>
+  <data name="Slic3r" xml:space="preserve">
+    <value>Slic3r</value>
+  </data>
+  <data name="Slic3rFailedWithExitCode" xml:space="preserve">
+    <value>Slic3r failed with exit code </value>
+  </data>
+  <data name="Slice_" xml:space="preserve">
+    <value>Slice!</value>
+  </data>
+  <data name="Slice__" xml:space="preserve">
+    <value>rebanada</value>
+  </data>
+  <data name="SliceColorSelection" xml:space="preserve">
+    <value>Slice Selección de color</value>
+  </data>
+  <data name="SliceProfile" xml:space="preserve">
+    <value>  - (Slice ______ Perfil:</value>
+  </data>
+  <data name="SliceProfileLoaded" xml:space="preserve">
+    <value>Slice Perfil cargada</value>
+  </data>
+  <data name="SliceSliceProfile" xml:space="preserve">
+    <value>Slice! (Slice Perfil:</value>
+  </data>
+  <data name="SliceThicknessMm" xml:space="preserve">
+    <value>Grosor de corte (mm)</value>
+  </data>
+  <data name="SliceView" xml:space="preserve">
+    <value>Slice Ver</value>
+  </data>
+  <data name="Slicing" xml:space="preserve">
+    <value>.slicing</value>
+  </data>
+  <data name="SlicingCancelled" xml:space="preserve">
+    <value>rebanar Cancelado</value>
+  </data>
+  <data name="SlicingCompleted" xml:space="preserve">
+    <value>rebanar Completado</value>
+  </data>
+  <data name="SlicingEngine" xml:space="preserve">
+    <value>rebanar motor</value>
+  </data>
+  <data name="SlicingFailed" xml:space="preserve">
+    <value>rebanar Falló</value>
+  </data>
+  <data name="SlicingLayer" xml:space="preserve">
+    <value>capa rebanar</value>
+  </data>
+  <data name="SlicingProfile" xml:space="preserve">
+    <value>Cortando Perfil:</value>
+  </data>
+  <data name="SlicingProfileHelp" xml:space="preserve">
+    <value>Cortando perfil Ayuda</value>
+  </data>
+  <data name="SlicingStarted" xml:space="preserve">
+    <value>rebanar Started</value>
+  </data>
+  <data name="SoftwareConfig" xml:space="preserve">
+    <value>Software de configuración</value>
+  </data>
+  <data name="SomeControl" xml:space="preserve">
+    <value>Algunos de control</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>velocidad</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Empezar</value>
+  </data>
+  <data name="StartSlicing" xml:space="preserve">
+    <value>Inicio rebanar</value>
+  </data>
+  <data name="SteveHernandez" xml:space="preserve">
+    <value>Steve Hernández</value>
+  </data>
+  <data name="SteveHernandezAkaPacManFan" xml:space="preserve">
+    <value>Steve Hernández aka - PacManFan</value>
+  </data>
+  <data name="StopPrintingProcess" xml:space="preserve">
+    <value>Detener el proceso de impresión</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Cuerda</value>
+  </data>
+  <data name="SubtractSelected" xml:space="preserve">
+    <value>Reste seleccionada</value>
+  </data>
+  <data name="SupportParameters" xml:space="preserve">
+    <value>Parámetros de Apoyo</value>
+  </data>
+  <data name="Supports" xml:space="preserve">
+    <value>apoyos</value>
+  </data>
+  <data name="SupportShape" xml:space="preserve">
+    <value>forma de apoyo</value>
+  </data>
+  <data name="SwitchTabDisplay" xml:space="preserve">
+    <value>Cambie Tab Display</value>
+  </data>
+  <data name="TestMachineControl" xml:space="preserve">
+    <value>Máquina de control de pruebas</value>
+  </data>
+  <data name="TestModelGeneration" xml:space="preserve">
+    <value>Generación de modelos de prueba</value>
+  </data>
+  <data name="TestModelGenerationCompletedCloseTheCalibrationFormAndPressPLAYButtonToPrint" xml:space="preserve">
+    <value>La generación de modelos de prueba completada.
+Cierre el botón de formulario de calibración y pulse PLAY para imprimir .</value>
+  </data>
+  <data name="TestNewSlicer" xml:space="preserve">
+    <value>Prueba nueva máquina de cortar</value>
+  </data>
+  <data name="TestPrintGeneration" xml:space="preserve">
+    <value>Prueba de impresión Generación</value>
+  </data>
+  <data name="ThisIcon" xml:space="preserve">
+    <value>$this.Icon</value>
+  </data>
+  <data name="Tilt" xml:space="preserve">
+    <value>inclinación</value>
+  </data>
+  <data name="TiltControl" xml:space="preserve">
+    <value>control de inclinación</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>.title</value>
+  </data>
+  <data name="Title____" xml:space="preserve">
+    <value>Título:</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>  a</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>escribe</value>
+  </data>
+  <data name="UnableToSaveGUIConfiguration" xml:space="preserve">
+    <value>No se puede guardar la configuración de interfaz gráfica de usuario:</value>
+  </data>
+  <data name="Undo_" xml:space="preserve">
+    <value>deshacer</value>
+  </data>
+  <data name="UnionSelected" xml:space="preserve">
+    <value>Unión seleccionada</value>
+  </data>
+  <data name="UnknownSequenceType" xml:space="preserve">
+    <value>Desconocido Tipo de secuencia</value>
+  </data>
+  <data name="Updateobject" xml:space="preserve">
+    <value>updateObject</value>
+  </data>
+  <data name="UseCellPatternExposureTimesBellowAndActualModelCellThicknessToDetermineBestExposureTime" xml:space="preserve">
+    <value>Usar tiempos de exposición patrón celular abajo
+y el espesor celular modelo real para determinar
+mejor tiempo de exposición .</value>
+  </data>
+  <data name="UserManual" xml:space="preserve">
+    <value>Manual De Usuario</value>
+  </data>
+  <data name="UserParameters" xml:space="preserve">
+    <value>Parámetros de usuario</value>
+  </data>
+  <data name="Userparams" xml:space="preserve">
+    <value>userparams</value>
+  </data>
+  <data name="Using" xml:space="preserve">
+    <value>  usando</value>
+  </data>
+  <data name="UVDLPGCodeFileCommandsDetectedCannotBeginBuildPossiblyWrongSlicerUsed" xml:space="preserve">
+    <value>Comandos de archivos gcode DLP UV detectados
+No se puede empezar a construir
+Posiblemente máquina de cortar mal utilizado </value>
+  </data>
+  <data name="UVDLPSlicer" xml:space="preserve">
+    <value>UV DLP Slicer</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>valor</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>versión</value>
+  </data>
+  <data name="Version_" xml:space="preserve">
+    <value>versión</value>
+  </data>
+  <data name="VerticalDivisions" xml:space="preserve">
+    <value>Divisiones verticales</value>
+  </data>
+  <data name="VerticalGridSpacing" xml:space="preserve">
+    <value>Espaciado vertical rejilla</value>
+  </data>
+  <data name="ViewGCodeDisplay" xml:space="preserve">
+    <value>Ver pantalla gcode</value>
+  </data>
+  <data name="ViewMachineConfiguration" xml:space="preserve">
+    <value>Ver Configuración de la Máquina</value>
+  </data>
+  <data name="ViewOptions" xml:space="preserve">
+    <value>Ver las opciones</value>
+  </data>
+  <data name="ViewSliceDisplay" xml:space="preserve">
+    <value>Pantalla Ver Slice</value>
+  </data>
+  <data name="ViewSliceOnDeviceDisplay" xml:space="preserve">
+    <value>Ver rebanada en la pantalla del dispositivo</value>
+  </data>
+  <data name="ViewSlicingConfiguration" xml:space="preserve">
+    <value>Ver configuración rebanar</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>Volumen:</value>
+  </data>
+  <data name="Waitfor" xml:space="preserve">
+    <value>esperar que</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>ancho</value>
+  </data>
+  <data name="Windowstyle" xml:space="preserve">
+    <value>windowstyle</value>
+  </data>
+  <data name="WrongNumberOfArgumentsCalling" xml:space="preserve">
+    <value>Número incorrecto de argumentos llamar</value>
+  </data>
+  <data name="X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="X_" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="X___" xml:space="preserve">
+    <value>-X</value>
+  </data>
+  <data name="X_______" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="X__pluse" xml:space="preserve">
+    <value>X+</value>
+  </data>
+  <data name="XMm" xml:space="preserve">
+    <value>X (mm):</value>
+  </data>
+  <data name="XOffset" xml:space="preserve">
+    <value>X Offset</value>
+  </data>
+  <data name="XSize" xml:space="preserve">
+    <value>X Tamaño</value>
+  </data>
+  <data name="XYAxis" xml:space="preserve">
+    <value>XY Axis</value>
+  </data>
+  <data name="XYAxis__" xml:space="preserve">
+    <value>X Y Axis</value>
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Y_" xml:space="preserve">
+    <value>-Y</value>
+  </data>
+  <data name="Y___" xml:space="preserve">
+    <value>+Y</value>
+  </data>
+  <data name="YMm" xml:space="preserve">
+    <value>Y (mm):</value>
+  </data>
+  <data name="YOffset" xml:space="preserve">
+    <value>Y Offset</value>
+  </data>
+  <data name="YouMustConfigureAtLeast1DisplayDevice" xml:space="preserve">
+    <value>Debe configurar al menos 1 Dispositivo de visualización</value>
+  </data>
+  <data name="YSize" xml:space="preserve">
+    <value>Y Size</value>
+  </data>
+  <data name="Z" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="ZAxis" xml:space="preserve">
+    <value>Z Axis</value>
+  </data>
+  <data name="ZLiftDistanceMm" xml:space="preserve">
+    <value>Z Lift Distance (mm)</value>
+  </data>
+</root>

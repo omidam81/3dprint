@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GuiConfig FileVersion="1" basecolor="red">
+	<buttons>
+		<style backcolor="#ecedea" hovercolor="#68adb2" forecolor="" checkcolor="#efefef" presscolor="White" nimages="1" pressscale="100" gl="false" style="DefaultButton"/>
+		<style name="glbutt1" backcolor="red"/>
+		<button name="home" dock="tl" x="15" y="20" image="home_solid" w="30" h="30"  backcolor="Transparent"/>
+		<button name="top" dock="tl" x="15" y="60" image="th_solid" w="30" h="30"  backcolor="Transparent"/>
+		<button name="openfile" dock="tl" x="15" y="100" image="folder_open_solid" w="30" h="30" backcolor="Transparent"/>
+		<button name="save" dock="tl" x="15" y="140" image="save_regular" w="30" h="30" backcolor="Transparent"/>
+		<button name="undo" visible="false" dock="tl" x="15" y="140" image="stop_solid" w="30" h="30" backcolor="Transparent"/>
+		<button name="redo" visible="false" dock="tl" x="15" y="140" image="stop_solid" w="30" h="30" backcolor="Transparent"/>
+		<button name="connect" dock="tl" x="15" y="180" image="buttConnect" w="30" h="30" backcolor="Transparent"/>
+		<button name="disconnect" dock="tl" x="15" y="220" image="buttDisconnect" w="30" h="30" backcolor="Transparent"/>
+		<button name="slice" dock="tl" x="15" y="260" image="buttViewSlice" w="30" h="30" backcolor="Transparent"/>
+		<button name="play" dock="tl" x="15" y="300" image="play_solid_1" w="30" h="30" backcolor="Transparent"/>
+		<button name="pause" dock="tl" x="15" y="340" image="stop_solid" w="30" h="30" backcolor="Transparent"/>
+
+
+	</buttons>
+	<controls>		
+		<style panelpad="2" backcolor="#dedede" framecolor="#efefef" hovercolor="#959595" forecolor="" checkcolor="green" presscolor="red" nimages="1" pressscale="92" gl="false"/>
+		<style name="TopBars" backcolor="red" hovercolor="" forecolor="" checkcolor="#DCDCDC" presscolor="White" nimages="1" pressscale="20"/>
+		<style name="SideBars" backcolor="red" forecolor="" applysubcontrols="false"/>
+		<style name="Windows" backcolor="ffffff" forecolor="red" applysubcontrols="true"/>
+		<style name="gltext1" backcolor="Transparent" forecolor="White" gl="true"/>
+		<control name="pmove" dock="bl" x="20" y="90" w="30" h="30"/>
+		<control name="pscale" dock="bl" x="20" y="90"  w="30" h="30"/>
+		<control name="protate" dock="bl" x="20" y="90"  w="30" h="30"/>
+		<control name="psupport" dock="bl" x="20" y="90"  w="30" h="30"/>
+		<control name="pviewopts" dock="bl" x="20" y="90"  w="30" h="30" />
+		<control name="pconfig" dock="bl" x="20" y="90"  w="30" h="30"/>
+		<control name="pmeshtools" dock="bl" x="20" y="90"  w="30" h="30"/>
+		<control name="pscenetree" dock="tr" x="20" y="90"  w="30" h="30"/>
+		<control name="pobjectinf" dock="br" x="20" y="90" />		
+		<control name="pmachinecontrol" dock="bc" x="20" y="90" />
+		<control name="pmanualgcode" dock="tl" x="20" y="90" />		
+		<control name="pprojectorcontrol" dock="br" x="20" y="90" />
+
+		<control name="clayerscroll" dock="tr" x="55" y="115"/>
+		<control name="clayernum" dock="tr" x="20" y="440"/>
+		<control name="clayerZ" dock="tr" x="20" y="470"/>
+		
+
+		<control name="progress" dock="br" x="10" y="80" style="gltext1"/>
+		<control name="mainmsg" dock="tr" x="100" y="8" style="gltext1" w="400"/>
+		<control name="timemsg" dock="tr" x="100" y="34" style="gltext1" w="400"/>
+		<control name="pnlTopIconsMain" style="TopBars"/>
+		<control name="pnlTopTabs" style="SideBars"/>
+		<control name="pnlTopIconsMain" style="TopBars"/>
+		<control name="pnlRightBar" style="SideBars"/>
+		<control name="pnlLeftBar" style="SideBars"/>
+	</controls>
+	<decals basecolor='red'>
+		<bar name="Background" basecolor='red' dock="n" tlcolor="#ecedea" trcolor="#ecedea" blcolor="#ecedea" brcolor="#ecedea" level="background"/>
+		<!-- <bar dock="b" width="70" color="RoyalBlue"/> -->
+
+		<image name="Logo" image="logo" dock="bl" x="0" y="0" />
+
+	</decals>
+</GuiConfig>
+
+
